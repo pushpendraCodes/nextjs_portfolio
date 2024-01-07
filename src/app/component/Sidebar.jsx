@@ -50,28 +50,28 @@ const Sidebar = () => {
 
       <p className="mb-5">Social</p>
         <ul className=" flex flex-col gap-7 pl-2 ">
-          <Link href="" className="flex transform transition-transform duration-300 hover:-translate-y-1 gap-3 items-center">
+          <a href="https://www.instagram.com/i__am__pushpendra_/" target="blank" className="flex transform transition-transform duration-300 hover:-translate-y-1 gap-3 items-center">
             <IoLogoInstagram color="red" size={25} />{" "}
             <p className="text-sm  text-gray-400 ">Instagram</p>{" "}
-          </Link>
-          <Link href="" className="flex transform transition-transform duration-300 hover:-translate-y-1 gap-3 items-center">
+          </a>
+          <a href="https://github.com/pushpendraCodes" target="blank" className="flex transform transition-transform duration-300 hover:-translate-y-1 gap-3 items-center">
             <FiGithub color="green" size={25} />{" "}
             <p className="text-sm   text-gray-400  ">
               Github
             </p>{" "}
-          </Link>
-          <Link href="" className="flex transform transition-transform duration-300 hover:-translate-y-1 gap-3 items-center">
+          </a>
+          <a href="https://www.linkedin.com/in/pushpendra-patel-2b2130235/" target="blank" className="flex transform transition-transform duration-300 hover:-translate-y-1 gap-3 items-center">
             <CiLinkedin size={25} color="blue" />{" "}
             <p className="text-sm   text-gray-400  ">
               Linkdin
             </p>{" "}
-          </Link>
-          <Link href="" className="flex transform transition-transform duration-300 hover:-translate-y-1 gap-3 items-center">
+          </a>
+          <a href="https://twitter.com/Pushpendracodes" target="blank" className="flex transform transition-transform duration-300 hover:-translate-y-1 gap-3 items-center">
             <FaXTwitter size={24} color="" />{" "}
-            <p className="text-sm   text-gray-400  ">
+            <p  className="text-sm   text-gray-400  ">
               Twitter
             </p>{" "}
-          </Link>
+          </a>
         </ul>
       </div>
     </div>

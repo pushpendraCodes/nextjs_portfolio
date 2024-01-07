@@ -43,10 +43,10 @@ export const Technology = () => {
               <button className=" border-sky-450	border bg-black rounded-md px-2 mx-1 py-2">
                 Node js
               </button>
-              <button className=" border-pink-600 border rounded-md bg-black px-2 py-2">
+              <button className=" border-pink-600 border rounded-md bg-black  px-2 py-2">
                Express
               </button>
-              <button className="border border-cyan-500 rounded-md	bg-black px-2 py-2 my-2">
+              <button className="border border-cyan-500 rounded-md mx-1	bg-black px-2 py-2 my-2">
               Next Auth
               </button>
 

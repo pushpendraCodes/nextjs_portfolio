@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="1 rounded-full bg-green-500  w-4 h-4"></div>
       </div>
       <div className="right flex justify-between ">
-        <button className="bg-green-500 px-2 py-1 mx-2 rounded-sm  font-thin  font-mono hover:bg-green-900 ">Resume </button>
+        <a target="blank" href="https://nextjs-portfolio-five-lilac.vercel.app/1year_exp_in react&nodejs.pdf" className="bg-green-500 px-2 py-1 mx-2 rounded-sm  font-thin  font-mono hover:bg-green-900 ">Resume </a>
         <button className="bg-blue-700 px-2 py-1 rounded-sm font-mono font-light hover:bg-blue-900">contact Me</button>
         <button
          onClick={()=>{setOpen(!isOpen)}}

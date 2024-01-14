@@ -2,9 +2,12 @@ import React from "react";
 import { FaArrowRightArrowLeft, FaGithub } from "react-icons/fa6";
 import { GiClothes } from "react-icons/gi";
 import { IoArrowRedoCircleOutline } from "react-icons/io5";
+import ThreeScene from "./ThreeScene";
 export const Technology = () => {
   return (
-    <div className="tech  py-1">
+    <div className="tech md:px-10 py-1">
+
+
       <h2 className="text-2xl">What i Know</h2>
       <div className="grid grid-cols-5 mt-1  gap-3">
         <div className=" xl lg:col-span-4 md sm:col-span-5 col-span-5   mt-10 text-slate-400 gap-2">
@@ -122,7 +125,7 @@ export const Technology = () => {
                   <FaGithub size={20} cursor={"pointer"} color="white" />
                 </a>
             </div>
-            <div className="w-2/4 flex  flex-col justify-center items-center">
+            <div className="w-2/4 flex  flex-col justify-center text-center items-center">
               <h2 className="text-sm font-normal">chat app</h2>
               <p className="text-xs font-light text-gray-500"> react node socket express</p>
             </div>
@@ -138,6 +141,8 @@ export const Technology = () => {
           </div>
         </div>
       </div>
+
+
     </div>
   );
 };

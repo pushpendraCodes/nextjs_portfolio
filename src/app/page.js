@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navbar from "./component/Navbar";
 import Sidebar from "./component/Sidebar";
 import Rightbar from "./component/rightbar/Rightbar";
+import ThreeScene from "./component/ThreeScene";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <>
       <div className="p-3">
+      {/* <ThreeScene/> */}
         <Navbar />
 
         <div className="main flex py-5 relative ">

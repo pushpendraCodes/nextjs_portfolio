@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="xl:w-1/2 lg:w-1/2 md:w-3/5 h-full flex items-center  gap-4 justify-center">
           <div className="  flex items-center mx-2 justify-center ">
             <Image
-              src="https://nextjs-portfolio-five-lilac.vercel.app/dp1.png  "
+              src="/dp1.png  "
               width={100}
               height={50}
               className="rounded-full w-28 h-28 xl lg md:w-32 xl lg md:h-32 object-cover "

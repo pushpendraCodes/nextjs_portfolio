@@ -119,7 +119,7 @@ export const Technology = () => {
                 </a>
             </div>
           </div>
-          <div className="w-full flex justify-between py-5 px-1 items-center ">
+          {/* <div className="w-full flex justify-between py-5 px-1 items-center ">
             <div className="w-1/4 flex justify-center items-center">
               <a target="blank"  href="https://github.com/pushpendraCodes/Nextjs_blog_app">
                   <FaGithub size={20} cursor={"pointer"} color="white" />
@@ -138,7 +138,7 @@ export const Technology = () => {
                   />
                 </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

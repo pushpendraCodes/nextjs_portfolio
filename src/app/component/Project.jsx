@@ -11,14 +11,20 @@ const Project = () => {
         <div class="grid xl:grid-cols-4 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-4">
           <div className="project1 lg:max-h-64 xl:max-h-64 overflow-hidden rounded-xl  ">
             <div className=" w-full xl:h-1/2   md:h-3/5  ">
-              <img
+              {/* <img
                 className="w-full h-full  object-cover"
                 src="/e-com.png"
                 alt=""
-              />
+              /> */}
+              <video  autoplay controls>
+                <source src="/apna_ecom_video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div className=" bg-white sm:py-3 py-3  xl:h-1/2 md:h-2/5 md:py-3  px-3 xl:py-2 lg:py-3  ">
-              <h2 className="min-w-max text-xl font-bold text-black my-1">Apna Cart E-com</h2>
+              <h2 className="min-w-max text-xl font-bold text-black my-1">
+                Apna Cart E-com
+              </h2>
               <p className="min-w-max text-xs font-mono text-gray-800 font-thin">
                 React, Redux, Tailwind, nodejs
               </p>
@@ -26,10 +32,13 @@ const Project = () => {
                 express, stripe, mongodb
               </p>
               <div className="mb-2 flex justify-end gap-4">
-                <a href="https://github.com/pushpendraCodes/mern-e-commerce" target="blank">
+                <a
+                  href="https://github.com/pushpendraCodes/mern-e-commerce"
+                  target="blank"
+                >
                   <FaGithub size={20} cursor={"pointer"} color="black" />
                 </a>
-                <a href="https://apnacart.vercel.app/" target="blank" >
+                <a href="https://apnacart.vercel.app/" target="blank">
                   <IoArrowRedoOutline
                     size={20}
                     cursor={"pointer"}
@@ -40,12 +49,16 @@ const Project = () => {
             </div>
           </div>
           <div className="project1 lg:max-h-64 xl:max-h-64 overflow-hidden rounded-xl   ">
-          <div className=" w-full xl:h-1/2   md:h-3/5  ">
-              <img
-               className="w-full h-full  object-cover"
+            <div className=" w-full xl:h-1/2   md:h-3/5  ">
+              {/* <img
+                className="w-full h-full  object-cover"
                 src="/project_1.png"
                 alt=""
-              />
+              /> */}
+              <video autoplay  controls>
+                <source src="/grievnace_video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div className=" bg-white sm:py-3 py-3  xl:h-1/2 md:h-2/5 md:py-3  px-3 xl:py-2 lg:py-3  ">
               <h2 className="min-w-max text-wrap text-xl font-bold text-black my-1">
@@ -59,10 +72,16 @@ const Project = () => {
                 mongodb
               </p>
               <div className="mb-2 flex justify-end gap-4">
-                <a href="https://github.com/pushpendraCodes/Mern-Grievance-Reddressal-Portal" target="blank">
+                <a
+                  href="https://github.com/pushpendraCodes/Mern-Grievance-Reddressal-Portal"
+                  target="blank"
+                >
                   <FaGithub size={20} cursor={"pointer"} color="black" />
                 </a>
-                <a href="https://student-grievance-rederessal-portal.netlify.app" target="blank">
+                <a
+                  href="https://student-grievance-rederessal-portal.netlify.app"
+                  target="blank"
+                >
                   <IoArrowRedoOutline
                     size={20}
                     cursor={"pointer"}
@@ -73,15 +92,21 @@ const Project = () => {
             </div>
           </div>
           <div className="lg:max-h-64 xl:max-h-64 overflow-hidden rounded-xl  ">
-          <div className=" w-full xl:h-1/2   md:h-3/5  ">
-              <img
-              className="w-full h-full  object-cover"
+            <div className=" w-full xl:h-1/2   md:h-3/5  ">
+              {/* <img
+                className="w-full h-full  object-cover"
                 src="/project_3.png"
                 alt=""
-              />
+              /> */}
+              <video autoplay  controls>
+                <source src="/facebook_video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div className=" bg-white sm:py-3 py-3  xl:h-1/2 md:h-2/5 md:py-3  px-3 xl:py-2 lg:py-3  ">
-              <h2 className="min-w-max  text-black text-xl font-bold my-1">Facebook clone</h2>
+              <h2 className="min-w-max  text-black text-xl font-bold my-1">
+                Facebook clone
+              </h2>
               <p className="min-w-max text-xs font-mono text-gray-800 font-thin">
                 React nodejs express
               </p>
@@ -103,16 +128,27 @@ const Project = () => {
             </div>
           </div>
           <div className="lg:max-h-64 xl:max-h-64 overflow-hidden rounded-xl   ">
-          <div className=" w-full xl:h-1/2   md:h-3/5  ">
-              <img className="w-full h-full  object-cover" src="/project5.png" alt="" />
+            <div className=" w-full xl:h-1/2   md:h-3/5  ">
+              {/* <img
+                className="w-full h-full  object-cover"
+                src="/project5.png"
+                alt=""
+              /> */}
+
+              <video  autoplay controls>
+                <source src="/blog_video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div className=" bg-white sm:py-3 py-3  xl:h-1/2 md:h-2/5 md:py-3  px-3 xl:py-2 lg:py-3  ">
-              <h2 className="min-w-max  text-black text-xl font-bold my-1">Next js Blog app</h2>
+              <h2 className="min-w-max  text-black text-xl font-bold my-1">
+                Next js Blog app
+              </h2>
               <p className="min-w-max text-xs font-mono text-gray-800 font-thin">
                 Nextjs 13 NextAuth nextApi
               </p>
               <p className="min-w-max text-xs font-mono text-gray-800 font-thin">
-               Mongo db
+                Mongo db
               </p>
               <div className="mb-2 flex justify-end gap-4 align-text-bottom ">
                 <a href="https://github.com/pushpendraCodes/Nextjs_blog_app">

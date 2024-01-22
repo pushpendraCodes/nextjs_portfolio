@@ -14,28 +14,28 @@ export const Technology = () => {
           <div className="  text-xs  bg-[#1e1c27] py-4 px-4 h-90 rounded-md">
             <h2 className="my-5 text-xl text-white">FrontEnd</h2>
             <div className=" font-thin mt-2 ">
-              <button className=" border-sky-850 	border  bg-black rounded-md px-2 mx-1 py-2">
+              <button className=" border-sky-850 	border font-bold  bg-black rounded-md px-2 mx-1 py-2">
                 html
               </button>
-              <button className=" border-stone-500 border  bg-black rounded-md px-2 mx-1 py-2">
+              <button className=" border-stone-500 border font-bold bg-black rounded-md px-2 mx-1 py-2">
                 css
               </button>
-              <button className="border border-cyan-600 my-2	 bg-black rounded-md px-2 mx-2 py-2">
+              <button className="border border-cyan-600 my-2	font-bold bg-black rounded-md px-2 mx-2 py-2">
                 Tailwind{" "}
               </button>
-              <button className="border border-cyan-900  bg-black rounded-md px-2 mx-1 py-2">
+              <button className="border border-cyan-900  font-bold bg-black rounded-md px-2 mx-1 py-2">
                 Bootstrap{" "}
               </button>
-              <button className=" border border-pink-400 my-2  bg-black rounded-md px-2 mx-1 py-2">
+              <button className=" border border-pink-400 my-2 font-bold bg-black rounded-md px-2 mx-1 py-2">
                 Javacript{" "}
               </button>
-              <button className=" bg-black rounded-md px-2 mx-1 py-2 border border-red-500	">
+              <button className=" bg-black rounded-md px-2 mx-1 py-2 border border-red-500	font-bold">
                 React js{" "}
               </button>
-              <button className="   bg-black rounded-md px-2  my-2 mx-1 py-2 border border-emerald-400	">
+              <button className="   bg-black rounded-md px-2 font-bold my-2 mx-1 py-2 border border-emerald-400	">
                 Next js{" "}
               </button>
-              <button className="   bg-black rounded-md px-2  my-2 mx-1 py-2 border border-teal-400	">
+              <button className="   bg-black rounded-md px-2 font-bold my-2 mx-1 py-2 border border-teal-400	">
                Chakra ui
               </button>
             </div>
@@ -43,13 +43,13 @@ export const Technology = () => {
           <div className=" text-xs bg-[#1e1c27] py-4 px-4 h-90 rounded-md">
             <h2 className="my-5  text-xl text-white">Backend</h2>
             <div className=" font-thin mt-2 ">
-              <button className=" border-sky-450	border bg-black rounded-md px-2 mx-1 py-2">
+              <button className=" border-sky-450	border font-bold bg-black rounded-md px-2 mx-1 py-2">
                 Node js
               </button>
-              <button className=" border-pink-600 border rounded-md bg-black  px-2 py-2">
+              <button className=" border-pink-600 border rounded-md bg-black  px-2 py-2 font-bold">
                Express
               </button>
-              <button className="border border-cyan-500 rounded-md mx-1	bg-black px-2 py-2 my-2">
+              <button className="border border-cyan-500 rounded-md mx-1	bg-black px-2 py-2 my-2 font-bold">
               Next Auth
               </button>
 
@@ -58,10 +58,10 @@ export const Technology = () => {
           <div className=" text-xs bg-[#1e1c27] py-4 px-4 h-90 rounded-md">
             <h2 className="my-5  text-xl text-white">Database</h2>
             <div className=" font-thin mt-2 ">
-              <button className=" border-blue-450 bg-black rounded-md	border  px-2 mx-1 py-2">
+              <button className=" border-blue-450 bg-black rounded-md	border  px-2 mx-1 font-bold py-2">
                 Mongo DB
               </button>
-              <button className=" border-teal-500 bg-black rounded-md border px-2 my-2 py-2">
+              <button className=" border-teal-500 font-bold bg-black rounded-md border px-2 my-2 py-2">
               MySql
               </button>
 
@@ -70,7 +70,7 @@ export const Technology = () => {
           <div className=" text-xs bg-[#1e1c27] py-4 px-4 h-90 rounded-md">
             <h2 className="my-5 text-xl text-white ">Devops</h2>
             <div className=" font-thin mt-2 ">
-              <button className=" border-yellow-600	border rounded-md bg-black px-2 mx-1 py-2">
+              <button className=" border-yellow-600	 font-bold rounded-md bg-black px-2 mx-1 py-2">
                 GIT
               </button>
 

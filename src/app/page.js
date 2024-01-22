@@ -23,6 +23,9 @@ export default function Home() {
             <Rightbar />
           </div>
         </div>
+   <div>
+    <p className="text-center">Copyright ©2024   PushpendraCodes. All rights reserved</p>
+   </div>
       </div>
     </>
   );

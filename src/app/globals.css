@@ -29,7 +29,7 @@ body {
 }
 
 ::-webkit-scrollbar{
-  background-color: rgb(21, 20, 20);
+  background-color: #1c1b21;
   height: 50px;
   width: 10px;
 }

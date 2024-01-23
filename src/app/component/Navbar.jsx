@@ -24,12 +24,12 @@ function onSound(){
     return () => stop();
   },[play, stop])
   return (
-    <div className="navbar py-3 flex justify-between px-2">
-      <div className="left flex gap-1">
+    <div className="navbar py-3 xm lg md sm:flex justify-between px-2">
+      <div className=" hidden xl lg md sm:flex xl lg md sm:left xl lg md sm:gap-1 ">
         <div className="1  rounded-full bg-green-500  w-4 h-4"></div>
         <div className="1 rounded-full bg-green-500  w-4 h-4"></div>
       </div>
-      <div className="right flex justify-between ">
+      <div className="right flex justify-between xl lg md sm:flex  ">
     {isOn ? <Image className="cursor-pointer" onClick={offSound} width={30} height={30} src="/sound.png" />: <Image  className="cursor-pointer" onClick={onSound} width={30} height={30} src="/mute.png" />}
 
 

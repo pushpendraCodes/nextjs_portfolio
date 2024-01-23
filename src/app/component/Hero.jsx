@@ -17,8 +17,8 @@ const Hero = () => {
             />
           </div>
           <div className="name ">
-            <h2 className="font-bold  text-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-sans text-2xl  xl lg md:text-3xl">Pushpendra patel</h2>
-            <p className="text-sm">FullStack developer</p>
+            <h2 className="font-bold  text-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-sans text-md  xl lg md:text-3xl">Pushpendra patel</h2>
+            <p className="text-sm font-light">FullStack developer</p>
           </div>
         </div>
 

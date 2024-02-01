@@ -1,8 +1,9 @@
 import React from "react";
 import "../component/rightbar/rightbar.css";
 import Image from "next/image";
-import { FaInstagram } from "react-icons/fa6";
+import { FaInstagram, FaLocationArrow, FaLocationPin } from "react-icons/fa6";
 import Link from "next/link";
+import { IoLocation } from "react-icons/io5";
 const Hero = () => {
   return (
     <div className=" backdrop px-1   ">
@@ -17,8 +18,9 @@ const Hero = () => {
             />
           </div>
           <div className="name ">
-            <h2 className="font-bold  text-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-sans text-md  xl lg md:text-3xl">Pushpendra patel</h2>
-            <p className="text-sm font-light">FullStack developer</p>
+            <h2 className="font-bold  text-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-sans text-lg  xl lg md:text-3xl">Pushpendra patel</h2>
+            <p className="text-sm font-light">Full Stack developer</p>
+            <p className="text-sm font-light flex items-center gap-2"> <IoLocation/> Rewa  India</p>
           </div>
         </div>
 
@@ -31,6 +33,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
+
     </div>
   );
 };

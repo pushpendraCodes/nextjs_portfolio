@@ -33,7 +33,7 @@ function onSound(){
     {isOn ? <Image className="cursor-pointer" onClick={offSound} width={30} height={30} src="/sound.png" />: <Image  className="cursor-pointer" onClick={onSound} width={30} height={30} src="/mute.png" />}
 
 
-        <a target="blank" href="/resume_pushpendra_1yrs_exp.pdf" className="bg-gradient-to-r from-red-500 text-sm to-teal-500 hover:from-pink-500 hover:to-yellow-500 px-2 py-1 mx-2 rounded-sm  font-thin  font-mono ">Resume </a>
+        <a target="blank" href="/pushpendra-patel.pdf" className="bg-gradient-to-r from-red-500 text-sm to-teal-500 hover:from-pink-500 hover:to-yellow-500 px-2 py-1 mx-2 rounded-sm  font-thin  font-mono ">Resume </a>
         <a  href="whatsapp://send?text=Hello pushpendra !&phone=+918516064332" className=" flex items-center gap-1 px-2 py-1 rounded-sm font-mono font-light bg-gradient-to-r text-sm from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"> <Image width={20} height={20} src="/whatsapp.png"  />  contact Me</a>
 {/* <div className="flex mx-1 justify-between items-center">
   <Image width={30} height={30} src="/gmail.png"  />

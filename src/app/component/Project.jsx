@@ -184,86 +184,87 @@ const Project = () => {
             </div>
           </div> */}
 
-
           <div className="">
-              <video
-controls muted
-                >
-                <source
-                  src="/apna_ecom_video.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <div className="flex justify-between my-2">
-                <h2 className="min-w-max text-xl font-bold  my-1">
-                  Apna Cart E-com
-                </h2>
-                <div className="flex gap-4">
-                  <a
-                    href="https://github.com/pushpendraCodes/mern-e-commerce"
-                    target="blank">
-                    <FaGithub
-                      size={20}
-                      cursor={"pointer"}
-                      color="white"
-                    />
-                  </a>
-                  <a
-                    href="https://apnacart.vercel.app/"
-                    target="blank">
-                    <IoArrowRedoOutline
-                      size={20}
-                      cursor={"pointer"}
-                      color="white"
-                    />
-                  </a>
-                </div>
-              </div>
-              <p className="text-gray-300 text-md font-thin text-sm">
-                A complete Mern E-commerce with admin dashboard to manage order
-                & stripe payment gateway
-              </p>
-              <div className="my-2 flex-wrap flex gap-2 ">
-                <button className="bg-blue-600 px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
-                  React
-                </button>
-                <button className="bg-blue-600  px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
-                  Redux
-                </button>
-                <button className="bg-blue-600  px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
-                  Tailwind
-                </button>
-                <button className="bg-blue-600  px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
-                  Node
-                </button>
-                <button className="bg-blue-600  px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
-                  Express
-                </button>
-                <button className="bg-blue-600  px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
-                  Monogdb
-                </button>
-
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  Stripe
-                </button>
+            <video
+              controls
+              muted>
+              <source
+                src="/apna_ecom_video.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <div className="flex justify-between my-2">
+              <h2 className="min-w-max text-xl font-bold  my-1">
+                Apna Cart E-com
+              </h2>
+              <div className="flex gap-4">
+                <a
+                  href="https://github.com/pushpendraCodes/mern-e-commerce"
+                  target="blank">
+                  <FaGithub
+                    size={20}
+                    cursor={"pointer"}
+                    color="white"
+                  />
+                </a>
+                <a
+                  href="https://apnacart.vercel.app/"
+                  target="blank">
+                  <IoArrowRedoOutline
+                    size={20}
+                    cursor={"pointer"}
+                    color="white"
+                  />
+                </a>
               </div>
             </div>
+            <p className="text-gray-300 text-md font-thin text-sm">
+              A complete Mern E-commerce with admin dashboard to manage order &
+              stripe payment gateway
+            </p>
+            <div className="my-2 flex-wrap flex gap-2 ">
+              <button className="bg-blue-600 px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
+                React
+              </button>
+              <button className="bg-blue-600  px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
+                Redux
+              </button>
+              <button className="bg-blue-600  px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
+                Tailwind
+              </button>
+              <button className="bg-blue-600  px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
+                Node
+              </button>
+              <button className="bg-blue-600  px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
+                Express
+              </button>
+              <button className="bg-blue-600  px-2 text-sm hover:bg-blue-400 py-1 rounded-md">
+                Monogdb
+              </button>
+
+              <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
+                Stripe
+              </button>
+            </div>
+          </div>
           <div className="">
-              <video
-             loop muted playsinline controls
-                >
-                <source
-                   src="/grievnace_video.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <div className="flex justify-between my-2">
-                <h2 className="min-w-max text-xl font-bold  my-1">
+            <video
+              loop
+              muted
+              playsinline
+              controls>
+              <source
+                src="/grievnace_video.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <div className="flex justify-between my-2">
+              <h2 className="min-w-max text-xl font-bold  my-1">
                 E-grievance portal
-                </h2>
-                <div className="flex gap-4">
+              </h2>
+              <div className="flex gap-4">
                 <a
                   href="https://github.com/pushpendraCodes/Mern-Grievance-Reddressal-Portal"
                   target="blank">
@@ -282,137 +283,135 @@ controls muted
                     color="white"
                   />
                 </a>
-                </div>
-              </div>
-              <p className="text-gray-300  font-thin text-sm">
-                A complete Mern  E-grievance portal
-              </p>
-              <div className="my-2 flex-wrap flex gap-2 ">
-                <button className="bg-blue-600 text-sm px-2  hover:bg-blue-400 py-1 rounded-md">
-                  React
-                </button>
-
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  Tailwind
-                </button>
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  Node
-                </button>
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  Express
-                </button>
-
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  Mongodb
-                </button>
               </div>
             </div>
+            <p className="text-gray-300  font-thin text-sm">
+              A complete Mern E-grievance portal
+            </p>
+            <div className="my-2 flex-wrap flex gap-2 ">
+              <button className="bg-blue-600 text-sm px-2  hover:bg-blue-400 py-1 rounded-md">
+                React
+              </button>
+
+              <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
+                Tailwind
+              </button>
+              <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
+                Node
+              </button>
+              <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
+                Express
+              </button>
+
+              <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
+                Mongodb
+              </button>
+            </div>
+          </div>
           <div className="">
-              <video
-             loop muted playsinline controls
-                >
-                <source
-                 src="/flaire.clone.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <div className="flex justify-between my-2">
-                <h2 className="min-w-max text-xl font-bold  my-1">
+            <video
+              loop
+              muted
+              playsinline
+              controls>
+              <source
+                src="/flaire.clone.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <div className="flex justify-between my-2">
+              <h2 className="min-w-max text-xl font-bold  my-1">
                 Faire.com clone
-                </h2>
-                <div className="flex gap-4">
-                <a href="https://github.com/pushpendraCodes/misiski_task">
+              </h2>
+              <div className="flex gap-4">
+                <a
+                  target="blank"
+                  href="https://github.com/pushpendraCodes/misiski_task">
                   <FaGithub
                     size={20}
                     cursor={"pointer"}
                     color="white"
                   />
                 </a>
-                <a href="https://misiski-task.vercel.app/">
+                <a
+                  target="blank"
+                  href="https://misiski-task.vercel.app/">
                   <IoArrowRedoOutline
                     size={20}
                     cursor={"pointer"}
                     color="white"
                   />
                 </a>
-                </div>
-              </div>
-              <p className="text-gray-300 text-md font-thin text-sm">
-                A complete Mern Facebook Clone
-              </p>
-              <div className="my-2 flex-wrap flex gap-2 ">
-                <button className="bg-blue-600 text-sm px-2  hover:bg-blue-400 py-1 rounded-md">
-                  React
-                </button>
-
-
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  Node
-                </button>
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  Express
-                </button>
-
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  Mongodb
-                </button>
               </div>
             </div>
+            <p className="text-gray-300 text-md font-thin text-sm">
+              A complete Faire.com(E-com) Clone
+            </p>
+            <div className="my-2 flex-wrap flex gap-2 ">
+              <button className="bg-blue-600 text-sm px-2  hover:bg-blue-400 py-1 rounded-md">
+                React
+              </button>
+
+              <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
+                Tailwind css
+              </button>
+            </div>
+          </div>
           <div className="">
-              <video
-             loop muted playsinline controls
-                >
-               <source
-                 src="/blog_video.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <div className="flex justify-between my-2">
-                <h2 className="min-w-max text-xl font-bold  my-1">
+            <video
+              loop
+              muted
+              playsinline
+              controls>
+              <source
+                src="/blog_video.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <div className="flex justify-between my-2">
+              <h2 className="min-w-max text-xl font-bold  my-1">
                 Next js Blog app
-                </h2>
-                <div className="flex gap-4">
-                <a href="https://github.com/pushpendraCodes/Nextjs_blog_app">
+              </h2>
+              <div className="flex gap-4">
+                <a target="blank" href="https://github.com/pushpendraCodes/Nextjs_blog_app">
                   <FaGithub
                     size={20}
                     cursor={"pointer"}
                     color="white"
                   />
                 </a>
-                <a href="https://nextjs-blog-app-hazel.vercel.app/">
+                <a target="blank" href="https://nextjs-blog-app-hazel.vercel.app/">
                   <IoArrowRedoOutline
                     size={20}
                     cursor={"pointer"}
                     color="white"
                   />
                 </a>
-                </div>
-              </div>
-              <p className="text-gray-300 text-md font-thin text-sm">
-                A complete Blog Application using Nect js
-              </p>
-              <div className="my-2 flex-wrap flex gap-2 ">
-                <button className="bg-blue-600 text-sm px-2  hover:bg-blue-400 py-1 rounded-md">
-                  React
-                </button>
-                <button className="bg-blue-600 text-sm px-2  hover:bg-blue-400 py-1 rounded-md">
-                  Nextjs14
-                </button>
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  Tailwind
-                </button>
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  NextApi
-                </button>
-                <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
-                  Mongodb
-                </button>
-
               </div>
             </div>
-
+            <p className="text-gray-300 text-md font-thin text-sm">
+              A complete Blog Application using Next js
+            </p>
+            <div className="my-2 flex-wrap flex gap-2 ">
+              <button className="bg-blue-600 text-sm px-2  hover:bg-blue-400 py-1 rounded-md">
+                React
+              </button>
+              <button className="bg-blue-600 text-sm px-2  hover:bg-blue-400 py-1 rounded-md">
+                Nextjs14
+              </button>
+              <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
+                Tailwind
+              </button>
+              <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
+                NextApi
+              </button>
+              <button className="bg-blue-600 text-sm px-2 hover:bg-blue-400 py-1 rounded-md">
+                Mongodb
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </>

@@ -312,24 +312,24 @@ controls muted
              loop muted playsinline controls
                 >
                 <source
-                 src="/facebook_video.mp4"
+                 src="/flaire.clone.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
               </video>
               <div className="flex justify-between my-2">
                 <h2 className="min-w-max text-xl font-bold  my-1">
-                Facebook clone
+                Faire.com clone
                 </h2>
                 <div className="flex gap-4">
-                <a href="https://github.com/pushpendraCodes/Mern-Facebook-clone-">
+                <a href="https://github.com/pushpendraCodes/misiski_task">
                   <FaGithub
                     size={20}
                     cursor={"pointer"}
                     color="white"
                   />
                 </a>
-                <a href="https://facebookpushpendra.netlify.app/">
+                <a href="https://misiski-task.vercel.app/">
                   <IoArrowRedoOutline
                     size={20}
                     cursor={"pointer"}

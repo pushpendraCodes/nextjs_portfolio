@@ -5,7 +5,7 @@ import { IoArrowRedoOutline } from "react-icons/io5";
 const Project = () => {
   return (
     <>
-      <div className="xl lg md:px-10 py-5">
+      <div className="xl lg text-white md:px-10 py-5">
         <h2 className="my-5 text-2xl">Projects</h2>
 
         <div class="grid xl:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-4">

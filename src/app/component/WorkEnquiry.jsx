@@ -3,12 +3,12 @@ import React from "react";
 
 const WorkEnquiry = () => {
   return (
-    <div className="  md:px-10 mt-5">
+    <div className=" text-white md:px-10 mt-5">
       <h2 className="text-2xl my-4">Work Enquiry</h2>
       <div className=" flex flex-col gap-4 w-full px-5  bg-[#1e1c27] py-4 h-46 rounded-md">
         <div>
 
-          <p className="text-sm md:text-md  lg:text-md xl:text-md ">
+          <p className="text-sm md:text-md text-white lg:text-md xl:text-md ">
           Thank you for visiting here! . i am passionate about delivering high-quality solutions  to meet your specific requirements. If you are looking for any website or software  or would like to discuss a potential collaboration, please connect with me.
           </p>
 

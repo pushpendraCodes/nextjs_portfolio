@@ -11,6 +11,21 @@ export const Technology = () => {
       <h2 className="text-2xl">What i Know</h2>
       <div className="grid grid-cols-5 mt-1  gap-3">
         <div className=" xl lg:col-span-4 md sm:col-span-5 col-span-5   mt-10 text-slate-400 gap-2">
+        <div className=" text-xs bg-[#1e1c27] py-4 px-4 h-90 rounded-md">
+            <h2 className="my-5  text-xl text-white">Language</h2>
+            <div className=" font-thin mt-2 ">
+              <button className=" border-yellow-500	border font-bold bg-black rounded-md px-2 mx-1 py-2">
+               Javacript
+              </button>
+              <button className=" border-blue-800 border rounded-md bg-black  px-2 py-2 font-bold">
+               Typescript
+              </button>
+
+
+            </div>
+          </div>
+
+
           <div className="  text-xs  bg-[#1e1c27] py-4 px-4 h-90 rounded-md">
             <h2 className="my-5 text-xl text-white">FrontEnd</h2>
             <div className=" font-thin mt-2 ">
@@ -26,9 +41,7 @@ export const Technology = () => {
               <button className="border border-cyan-900  font-bold bg-black rounded-md px-2 mx-1 py-2">
                 Bootstrap{" "}
               </button>
-              <button className=" border border-pink-400 my-2 font-bold bg-black rounded-md px-2 mx-1 py-2">
-                Javacript{" "}
-              </button>
+
               <button className=" bg-black rounded-md px-2 mx-1 py-2 border border-red-500	font-bold">
                 React js{" "}
               </button>
@@ -77,7 +90,7 @@ export const Technology = () => {
             </div>
           </div>
         </div>
-        <div className=" xl lg:col-span-1 md sm:col-span-2 col-span-5 h-96 md sm:h-96   py-3 bg-[#1e1c27]">
+        <div className=" text-white xl lg:col-span-1 md sm:col-span-2 col-span-5 h-96 md sm:h-96   py-3 bg-[#1e1c27]">
           <h2 className="text-center">More Projects</h2>
           <div className="w-full flex justify-between md sm:my-4 my-4 py-5 px-1 items-center ">
             <div className="w-1/4 flex justify-center items-center ">

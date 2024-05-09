@@ -17,7 +17,7 @@ const Hero = () => {
               className="rounded-full w-28 h-28 xl lg md:w-32 xl lg md:h-32 object-cover "
             />
           </div>
-          <div className="name ">
+          <div className="name text-white ">
             <h2 className="font-bold  text-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-sans text-lg  xl lg md:text-3xl">Pushpendra patel</h2>
             <p className="text-sm font-light">Full Stack developer</p>
             <p className="text-sm font-light flex items-center gap-2"> <IoLocation/> Rewa  India</p>
